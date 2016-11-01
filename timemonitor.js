@@ -14,7 +14,7 @@ function showLondon() {
     document.getElementById('LondonTime').style.fontFamily = "open-sans";
     document.getElementById('LondonTime').style.textAlign = "center"
     document.getElementById('LondonTime').style.fontSize = "100px"
-    document.getElementById('LondonTime').style.color = "#e58985"
+    document.getElementById('LondonTime').style.color = "#96a6ff"
     document.getElementById('LondonTime').innerHTML = h + ":" + m + ":" + s;
     
     var t = setTimeout(showLondon, 0);
@@ -58,7 +58,7 @@ function showSantaClara() {
     document.getElementById('SantaClaraTime').style.fontFamily = "open-sans";
     document.getElementById('SantaClaraTime').style.textAlign = "center"
     document.getElementById('SantaClaraTime').style.fontSize = "100px"
-    document.getElementById('SantaClaraTime').style.color = "#bcf442"
+    document.getElementById('SantaClaraTime').style.color = "#96e06d"
     document.getElementById('SantaClaraTime').innerHTML = h + ":" + m + ":" + s;
 
     var t = setTimeout(showSantaClara, 0);
